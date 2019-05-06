@@ -1,0 +1,6 @@
+library(leaflet)
+
+MALDIVES <- c("<a href= 'https://www.youtube.com/watch?v=PH2bXqHd4IM' >MALDIVES</a>")
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(lat=1.834773, lng=73.501588, popup = MALDIVES)
